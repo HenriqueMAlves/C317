@@ -7,6 +7,11 @@ public class Scene_button : MonoBehaviour
 {
     public string nextScene;
 
+    void Start()
+    {
+        PlayerPrefs.SetInt("lastLevel", SceneManager.GetActiveScene().buildIndex);
+    }
+
     public void changeScene()
     {
         SceneManager.LoadScene(nextScene);

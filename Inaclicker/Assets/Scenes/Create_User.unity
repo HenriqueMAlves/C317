@@ -826,7 +826,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1107401965}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aeba6a6a30338f84cb02cc3b39e0d011, type: 3}
+  m_Script: {fileID: 11500000, guid: 2eb421cf7f5f9a0409f18c050d5023b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: Game
@@ -1311,7 +1311,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1107401967}
-        m_TargetAssemblyTypeName: Scene_button, Assembly-CSharp
+        m_TargetAssemblyTypeName: New_Player_Button, Assembly-CSharp
         m_MethodName: changeScene
         m_Mode: 1
         m_Arguments:

@@ -17,8 +17,6 @@ public class New_Player_Button : MonoBehaviour
     public void changeScene()
     {
         playerName = GameObject.Find("Entrada Nome").GetComponent<InputField>().text;
-        print(playerName);
-        print(playerName.Length);
         if (playerName.Length > 0)
         {
             Users.users.Add(new UserInfo(playerName, 0, 0));

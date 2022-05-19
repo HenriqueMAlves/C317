@@ -21,11 +21,11 @@ public class Oprtions_Screen_Button : MonoBehaviour
         __lastScreenInfo = PlayerPrefs.GetInt("lastLevel");
         if (__lastScreenInfo == (int)scenes.game)
         {
-            GameObject.Find("Voltar").GetComponentInChildren<Text>().text = "Voltar";
+            GameObject.Find("Apagar jogo").GetComponentInChildren<Text>().text = "Voltar";
         }
         else if (__lastScreenInfo == (int)scenes.initialScreen)
         {
-            GameObject.Find("Voltar").GetComponentInChildren<Text>().text = "Voltar ao Menu";
+            GameObject.Find("Apagar jogo").GetComponentInChildren<Text>().text = "Apagar jogo";
         }
     }
     public void changeScene()

@@ -37,6 +37,7 @@ public class Oprtions_Screen_Button : MonoBehaviour
         }
         else if (__lastScreenInfo == (int)scenes.initialScreen)
         {
+            //User.users.Remove(new UserInfo() { index = PlayerPrefs.GetInt("index") });
             SceneManager.LoadScene("Initial_Screen");
         }
         

@@ -1116,7 +1116,7 @@ GameObject:
   - component: {fileID: 1466687202}
   - component: {fileID: 1466687203}
   m_Layer: 0
-  m_Name: zerarPontos
+  m_Name: CreatePlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

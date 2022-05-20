@@ -6,18 +6,14 @@ using UnityEngine.UI;
 
 public class Get_Points : MonoBehaviour
 {
-    private int points;
-
     void Start()
     {
-        points = PlayerPrefs.GetInt("playerPoints");
-        GameObject.Find("Pontos Num").GetComponent<Text>().text = points.ToString();
+        GameObject.Find("Pontos Num").GetComponent<Text>().text = User.users[0].score.ToString();
     }
 
     public void countPoint()
     {
-        points++;
-        GameObject.Find("Pontos Num").GetComponent<Text>().text = points.ToString();
-        PlayerPrefs.SetInt("playerPoints", points);
+        User.users[0].score++;
+        GameObject.Find("Pontos Num").GetComponent<Text>().text = User.users[0].score.ToString();
     }
 }

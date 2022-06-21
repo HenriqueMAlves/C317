@@ -830,6 +830,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: Game
+  defaultBackground: {fileID: 21300000, guid: 39474c2183e239945876bfab2c0cbecc, type: 3}
+  defaultTable: {fileID: 21300000, guid: 475fcf3e8e680fe4ca03baf1eba6391f, type: 3}
+  defaultWall: {fileID: 21300000, guid: 75047e726f46c774e86f0d989f33eec0, type: 3}
 --- !u!1 &1364235989
 GameObject:
   m_ObjectHideFlags: 0

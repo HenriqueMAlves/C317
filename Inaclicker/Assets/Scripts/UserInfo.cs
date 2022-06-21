@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using UnityEngine.Bindings;
 
 namespace UnityEngine
 {
@@ -13,6 +12,9 @@ namespace UnityEngine
         public string name { get; set; }
         public int score { get; set; }
         public int rank { get; set; }
+        public Sprite background { get; set; }
+        public Sprite table { get; set; }
+        public Sprite wall { get; set; }
         public int index { get; set; }
 
         public UserInfo(string name, int score, int rank, int index)

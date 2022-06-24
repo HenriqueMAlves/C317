@@ -111,13 +111,14 @@ public class Store : MonoBehaviour
 
     public void buyItem(int item)
     {
+        int playerId = PlayerPrefs.GetInt("actualPlayerId");
         GameObject.Find("Item"+item+"/Button").GetComponent<Button>().colors = buttonBuy;
         if (item == 1)
-            User.users[0].background = backgrond;
+            User.users[playerId].background = backgrond;
         else if (item == 2)
-            User.users[0].table = table;
+            User.users[playerId].table = table;
         else if (item == 3)
-            User.users[0].wall = wall;
+            User.users[playerId].wall = wall;
     }
 
 }
